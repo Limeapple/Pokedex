@@ -1,14 +1,191 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Karla', sans-serif;
+}
+body{
+  background:hsla(170, 51%, 99%, 1);
+}
+::-webkit-scrollbar{
+  width:4px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 2px;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 1px;
+  background: tomato;
+}
+.fire{
+  height:13px;
+  width:40px;
+  background:hsla(15, 100%, 50%, .7);
+  text-align:center;
+  color:white;
+  border-radius:25px;
+  font-size:10px;
+  margin:1px;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.water{
+  height:13px;
+  width:40px;
+  background:hsla(215, 100%, 62%, .7);
+  text-align:center;
+  color:white;
+  border-radius:25px;
+  font-size:10px;
+  margin:1px;
+
+}
+.bug{
+  height:13px;
+  width:40px;
+  background:hsla(81, 100%, 45%, .7);
+  text-align:center;
+  color:white;
+  border-radius:25px;
+  font-size:10px;
+  margin:1px;
+  font-weight: 100;
+}
+ .dragon{
+  height:13px;
+  width:40px;
+  background:hsla(256, 100%, 60%, .75);
+  text-align:center;
+  color:white;
+  border-radius:25px;
+  font-size:10px;
+  margin:1px;
+
+}
+ .ice{
+  height:13px;
+  width:40px;
+  background:hsla(178, 100%, 70%, .7);
+  text-align:center;
+  color:white;
+  border-radius:25px;
+  font-size:10px;
+  margin:1px;
+
+}
+  .fighting{
+  height:13px;
+  width:43px;
+  background:hsla(3, 66%, 45%, .7);
+  text-align:center;
+  color:white;
+  border-radius:25px;
+  font-size:10px;
+  margin:1px;
+
+}
+  .flying{
+  height:13px;
+  width:40px;
+  background:hsla(230, 100%, 79%, .75);
+  text-align:center;
+  color:white;
+  border-radius:25px;
+  font-size:10px;
+  margin:1px;
+
+}
+ .grass{
+  height:13px;
+  width:40px;
+  background:hsla(115, 100%, 43%, .7);
+  text-align:center;
+  color:white;
+  border-radius:25px;
+  font-size:10px;
+  margin:1px;
+
+}
+ .ghost{
+  height:13px;
+  width:40px;
+  background:hsla(250, 47%, 45%, .7);
+  text-align:center;
+  color:white;
+  border-radius:25px;
+  font-size:10px;
+  margin:1px;
+
+}
+ .ground{
+  height:13px;
+  width:40px;
+  background:hsla(50, 85%, 47%, .7);
+  text-align:center;
+  color:white;
+  border-radius:25px;
+  font-size:10px;
+  margin:1px;
+
+}
+.electric{
+  height:13px;
+  width:41px;
+  background:hsla(51, 100%, 49%, 1);
+  text-align:center;
+  color:white;
+  border-radius:25px;
+  font-size:11px;
+  margin:1px;
+
+
+}
+ .normal{
+  height:13px;
+  width:40px;
+  background:hsla(55, 0%, 50%, .7);
+  textAlign:center;
+  color:white;
+  border-radius:25px;
+  font-size:10px;
+  margin:1px;
+
+
+}
+
+.poison{
+  height:13px;
+  width:40px;
+  background:hsla(275, 100%, 50%, .7);
+  text-align:center;
+  color:white;
+  border-radius:25px;
+  font-size:10px;
+  margin:1px;
+
+}
+.psychic{
+
+  height:13px;
+  width:40px;
+  background:hsla(327, 100%, 58%, .7);
+  text-align:center;
+  color:white;
+  border-radius:25px;
+  font-size:10px;
+  margin:1px;
+
+}
+ .rock{
+  height:13px;
+  width:40px;
+  background:hsla(55, 65%, 43%, .7);
+  text-align:center;
+  color:white;
+  border-radius:25px;
+  font-size:10px;
+  margin:1px;
+
 }

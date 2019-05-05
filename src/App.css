@@ -1,33 +1,57 @@
-.App {
-  text-align: center;
+
+.Navbar li:hover{
+  color:white;
+  cursor:pointer;
+}
+.grid{
+  display: grid;
+  width: 80%;
+  margin:auto;
+  height:100vh;
+  grid-template-areas:
+  "nav nav nav nav nav nav nav nav"
+  "pic pic pic pic stat stat stat stat"
+  "pic pic pic pic stat stat stat stat"
+  "pic pic pic pic stat stat stat stat"
+  "pic pic pic pic stat stat stat stat"
+  "pic pic pic pic stat stat stat stat"
+  "pic pic pic pic stat stat stat stat"
+  "pic pic pic pic stat stat stat stat"
+  "desc desc desc desc desc desc desc desc"
+  "tab tab tab tab tab tab tab tab"
+  "tab tab tab tab tab tab tab tab"
+  "info info info info info info info info"
+  "info info info info info info info info"
+  "info info info info info info info info"
+  "info info info info info info info info"
+  "info info info info info info info info"
+  "info info info info info info info info"
+  "info info info info info info info info"
+
+}
+.nav{
+  grid-area:nav;
+  background:red;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.pic{
+  grid-area: pic;
+  background: blue;
+}
+.stat{
+  grid-area: stat;
+  background:yellow;
+}
+.desc{
+  grid-area: desc;
+  background: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tab{
+  grid-area: tab;
+  background:purple;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info{
+  grid-area:info;
+  background: orange;
 }
